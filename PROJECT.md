@@ -33,13 +33,13 @@ Each cycle is one batch of cohesive functionality, shipped together on a feature
 **Theme:** Live, credible, contactable — the site a handshake points to.
 
 **Done when:**
-- [ ] `shinersolutions.com` resolves to the site on Cloudflare Pages (HTTPS, apex + www)
-- [ ] Home page: promise ("Your website, handled — and you own everything"), who it's for, why-us vs template platforms
-- [ ] Offer section: the three lines (managed sites / build & migrate / technical consulting) described without prices, each pointing to contact
-- [ ] Contact form (name, business, message) reliably delivers to email, with success/failure states
-- [ ] OG/meta/favicon — link previews look right in texts and Facebook
-- [ ] verify-ui passes desktop + iPhone 13 viewports; Lighthouse ≥ 90 perf & a11y (audience is on old machines and mid phones)
-- [ ] Zero broken/placeholder nav — only pages that exist are linked
+- [x] `shinersolutions.com` resolves to the site on Cloudflare Pages (HTTPS, apex + www) *(2026-07-23)*
+- [x] Home page: promise ("Your website, handled — and you own everything"), who it's for, why-us vs template platforms
+- [x] Offer section: the three lines (managed sites / build & migrate / technical consulting) described without prices, each pointing to contact
+- [x] Contact form (name, business, email/phone, message) delivers via CF Pages Function → Resend → hello@ → gmail, with success/failure states *(end-to-end verified 2026-07-23)*
+- [x] OG/meta/favicon — link previews look right in texts and Facebook
+- [x] verify-ui passes desktop + iPhone 13 viewports (26/26); Lighthouse mobile 94 perf / 100 a11y
+- [x] Zero broken/placeholder nav — asserted in verify-ui
 
 **Scope:**
 - Single-page layout with anchor nav (home / offer / contact), or home + /contact — whichever the design wants
